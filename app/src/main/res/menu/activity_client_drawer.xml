@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_category"
+            android:title="Categorie" />
+        <item
+            android:id="@+id/nav_historique"
+            android:title="Historique" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_parametre"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Gerer Compte" />
+            <item
+                android:id="@+id/nav_cSign_out"
+                android:title="Se deconnecter" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:baselineAligned="false"
+    android:divider="?android:attr/dividerHorizontal"
+    android:orientation="horizontal"
+    android:showDividers="middle">
+
+    <!--
+    This layout is a two-pane layout for the Banques
+    master/detail flow.-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/agent_list"
+        android:name="ht.technoplus.goud.BanqueListFragment"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="#e1e2e1"
+        android:padding="10dp"
+        tools:listitem="@layout/agent_list_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+    <!--<FrameLayout-->
+    <!--android:id="@+id/banque_detail_container"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="3" />-->
+
+</LinearLayout>

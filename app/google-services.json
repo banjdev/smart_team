@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1092448786345",
+    "firebase_url": "https://smartjobs-9c2f8.firebaseio.com",
+    "project_id": "smartjobs-9c2f8",
+    "storage_bucket": "smartjobs-9c2f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092448786345:android:d9c69bd30ef99e2d",
+        "android_client_info": {
+          "package_name": "com.smartjobs.smartjobs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092448786345-0h9p2cct44kpp59216pbip2219ciljb2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smartjobs.smartjobs",
+            "certificate_hash": "5031826c56d9ca5f4288954a46629f9310f69191"
+          }
+        },
+        {
+          "client_id": "1092448786345-h0nv3eld4k2q1507h1t5h929uf5ouipe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE9whgJY-zf58Z7MpPfXDr-HsgU9FyfLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092448786345-h0nv3eld4k2q1507h1t5h929uf5ouipe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
